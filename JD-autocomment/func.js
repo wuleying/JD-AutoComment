@@ -3,6 +3,9 @@ $().ready(addComments);
 function addComments() {
     $('.star.star5').click();
 
+    // 物流评分
+    $('.commstar.start5').click();
+
     var items = $('.f-item.f-goods');
     for (var i = 0; i < items.length; i++) {
         console.log("第" + i + "个商品");
