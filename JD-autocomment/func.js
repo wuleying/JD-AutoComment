@@ -6,6 +6,7 @@ function addComments() {
     // 物流评分
     $('.commstar.start5').click();
 
+    // 商品评论
     var items = $('.f-item.f-goods');
     for (var i = 0; i < items.length; i++) {
         console.log("第" + i + "个商品");
