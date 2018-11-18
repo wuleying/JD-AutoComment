@@ -16,7 +16,7 @@ function addComments() {
         if (tags.length === 0) {
             var title = items.eq(i).find('.p-name').text();
             var title_arr = title.split(' ');
-            my_comment = '挺好的价格买到了' + title_arr[Math.floor(Math.random() * title_arr.length)] + ', 我觉得还是很满意的。';
+            my_comment = title_arr[Math.floor(Math.random() * title_arr.length)] + '挺不错的, 我觉得还是很满意的。';
             items.eq(i).find('textarea').text(my_comment);
             continue;
         }
