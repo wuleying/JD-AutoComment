@@ -10,7 +10,9 @@
 				"http://club.jd.com/myJdcomments/orderVoucher.action*",
 				"https://club.jd.com/myJdcomments/orderVoucher.action*",
 				"http://club.jd.com/afterComments/orderPublish.action?orderId=*",
-				"https://club.jd.com/afterComments/orderPublish.action?orderId=*"
+				"https://club.jd.com/afterComments/orderPublish.action?orderId=*",
+				"http://club.jd.com/afterComments/orderPublish.action?sku=*&orderId=*",
+				"https://club.jd.com/afterComments/orderPublish.action?sku=*&orderId=*"
 			],
 			"js": [
 				"jquery-2.1.1.min.js",
@@ -24,7 +26,9 @@
 		"http://club.jd.com/myJdcomments/orderVoucher.action?ruleid=*",
 		"https://club.jd.com/myJdcomments/orderVoucher.action?ruleid=*",
 		"http://club.jd.com/afterComments/orderPublish.action?orderId=*",
-		"https://club.jd.com/afterComments/orderPublish.action?orderId=*"
+		"https://club.jd.com/afterComments/orderPublish.action?orderId=*",
+		"http://club.jd.com/afterComments/orderPublish.action?sku=*&orderId=*",
+		"https://club.jd.com/afterComments/orderPublish.action?sku=*&orderId=*"
 	],
 	"browser_action": {
 		"default_title": "JD 自动评论",
