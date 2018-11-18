@@ -1,7 +1,7 @@
 {
 	"name": "JD auto comment",
 	"version": "0.0.3",
-	"author": "huts",
+	"author": "huts, wuleying",
 	"homepage_url": "http://huts.win",
 	"description": "京东自动填写评论",
 	"content_scripts":[
